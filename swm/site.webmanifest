@@ -1,0 +1,11 @@
+{ 
+    "short_name": "Piano",
+    "name": "My Piano",
+    "icons": [{
+        "src": "../assets/images/icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+    }],
+    "theme_color": "#f72585",
+    "display": "fullscreen"
+}

@@ -1,0 +1,75 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100vh;
+    background: linear-gradient(#3f37c9, #4361ee, #4895ef, #4cc9f0);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+}
+
+.piano_panel {
+    height: 95px;
+    background-color: #f72585;
+    background-image: url(assets/images/panel-reflex.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.piano_panel img {
+    width: 150px;
+    padding: 25px;
+}
+
+.piano_keys {
+    height: 200px;
+    display: flex;
+}
+
+.key {
+
+}
+
+.key-w {
+    height: 100%;
+    width: 65px;
+    background-color: white;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 5px solid #adb5bd;
+    border-radius: 0 0 8px 8px;
+    
+}
+
+.key-w:active {
+    background-color: #dee2e6;
+}
+
+.key-b {
+    height: 60%;
+    width: 50px;
+    background: linear-gradient(#6c757d 10%, #212529);
+    margin: 0 -25px 0 -25px;
+    z-index: 2;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0 0 8px 8px;
+}
+
+.key-b:active {
+    background: #212529;
+}
